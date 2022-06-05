@@ -1,406 +1,234 @@
 
 ***
 
-# <projectName>
+<details open><summary><b lang="en">Click/tap here to expand/collapse the logo for this subproject</b></summary>
 
-![{Project icon} This image failed to load. It may be due to the file not being reached, or a general error. Reload the page to fix a possible general error.](Image.svg)
+![/W_Cats.png](/W_Cats.png)
 
-# By:
+</details>
 
-<!-- ![{Developer name} This image failed to load. It may be due to the file not being reached, or a general error. Reload the page to fix a possible general error.](Image2.svg) !-->
+| ![SadMac_Tiny64px_HighCompression.png](SadMac_Tiny64px_HighCompression.png) Note: Classic notifications are removed in Wac OS X 10.5 |
+|-----------------------------------------------------------------------------------------------|
 
-## [Seanpm2001](https://github.com/seanpm2001/), [<developerName>](https://github.com/<developerName>/) Et; Al.
+| [Previous (10.4)](https://github.com/seanpm2001/WacOS_X_10.4/) | [Current (10.5)](https://github.com/seanpm2001/WacOS_X_10.5) | [Next (10.6)](https://github.com/seanpm2001/WacOS_X_10.6) |
+|---|---|---|
+| ![/W_Cats_HighCompression.png](/W_Cats_HighCompression.png) | ![/W_Cats_HighCompression.png](/W_Cats_HighCompression.png) | ![/W_Cats_HighCompression.png](/W_Cats_HighCompression.png) |
+| First boot | First boot | First boot |
+| ![/W_Modern1_HighCompression.png](/W_Modern1_HighCompression.png) |  ![/W_Modern1_HighCompression.png](/W_Modern1_HighCompression.png) | ![/W_Modern1_HighCompression.png](/W_Modern1_HighCompression.png) |
+| Default boot | Default boot | Default boot |
+| Wac OS X 10.4 (Tiger) [Local](/WacOS_X/10.4/) | Wac OS X 10.5 (Leopard) [Local](/WacOS_X/10.5/) | Wac OS X 10.6 (Snow Leopard) [Local](/WacOS_X/10.6/) |
 
+# WacOS X 10.5
 
-### Top
+Wac OS X 10.5 is an open source recreation of Mac OS X 10.5. It is part of the WacOS operating system project. 
 
-# `README.md`
+## Language
+
+The system is currently written in C, but will also support several other languages, including x86 Assembly, Objective-C, and AppleScript
+
+### Programming language support
+
+Objective-C is bumped up to version 2.0 (As of Wac OS X 10.5)
+
+Python version 2.5 is included (As of Wac OS X 10.5)
+
+Ruby 1.8.6 is included (As of Wac OS X 10.5)
+
+## Features
+
+Features to replicate
+
+Source: [Mac OS X 10.4 - Wikipedia (en)](https://en.wikipedia.org/w/index.php?title=Mac_OS_X_Tiger&oldid=1086544038)
+
+## New and changed features
+
+### End-user features
+
+Apple advertised that Mac OS X Leopard has 300+ new features, including:
+
+- [ ] A new and improved Automator, with easy starting points to easily start a workflow. It also can quickly create or edit workflows with new interface improvements. Now it can use a new action called "Watch Me Do" that lets you record a user action (like pressing a button or controlling an application without built-in Automator support) and replay as an action in a workflow. It can create more useful Automator workflows with actions for RSS feeds, iSight camera video snapshots, PDF manipulation, and much more.
+- [ ] Back to My Mac, a feature for MobileMe users that allows users to access files on their home computer while away from home via the internet.
+- [ ] Boot Camp, a software assistant allowing for the installation of other operating systems, such as Windows XP (SP2 or later) or Windows Vista, on a separate partition (or separate internal drive) on Intel-based Macs.
+- [ ] Dashboard enhancements, including Web Clip, a feature that allows users to turn a part of any Web page displayed in Safari into a live Dashboard widget, and Dashcode to help developers code widgets.
+- [ ] New Desktop, comprises a redesigned 3-D dock with a new grouping feature called Stacks, which displays files in either a "fan" style, "grid" style, or (since 10.5.2) a "list" style. Rory Prior, on the ThinkMac blog, criticized the shelf-like Dock along with a number of other changes to the user interface.
+- [ ] Dictionary can now search Wikipedia, and a dictionary of Apple terminology as well. Also included is the Japanese-language dictionary Daijisen, Progressive E-J and Progressive J-E dictionaries, and the 25,000-word thesaurus Tsukaikata no Wakaru Ruigo Reikai Jiten (使い方の分かる類語例解辞典), all of which are provided by the Japanese publisher Shogakukan.
+- [ ] A redesigned Finder, with features similar to those seen in iTunes 7, including Cover Flow and a Source list-like sidebar.
+- [ ] Front Row has been reworked to closely resemble the interface of the original Apple TV.
+- [ ] iCal calendar sharing and group scheduling as well as syncing event invitations from Mail. The icon also reflects the current date even when the application is not running. In previous versions of Mac OS X, the icon would show July 17 in the icon any time the application was not running but the current date when the application was running.
+- [ ] iChat enhancements, including multiple logins, invisibility, animated icons, and tabbed chats, similar to features present in Pidgin, Adium and the iChat plugin Chax; iChat Theater, allowing users to incorporate images from iPhoto, presentations from Keynote, videos from QuickTime, and other Quick Look features into video chats; and Backdrops, which are similar to chroma keys, but use a real-time difference matte technique which does not require a green or blue screen. iChat also implements screen sharing, a feature previously available with Apple Remote Desktop.
+- [ ] Mail enhancements including the additions of RSS feeds, Stationery, Notes, and to-dos. To-dos use a system-wide service that is available to all applications.
+    Network file sharing improvements include more granular control over permissions, consolidation of AFP, FTP and SMB sharing into one control panel, and the ability to share individual folders, a feature that had not been available since Mac OS 9.
+- [ ] Parental controls now include the ability to place restrictions on use of the Internet and to set parental controls from anywhere using remote setup.
+- [ ] Photo Booth enhancements, including video recording with real-time filters and blue/green-screen technology.
+- [ ] Podcast Capture, an application allowing users to record and distribute podcasts. It requires access to a computer running Mac OS X Server with Podcast Producer.
+- [ ] Preview adds support for annotation, graphics, extraction, search, markup, Instant Alpha and size adjustment tools.
+- [ ] Quick Look, a framework allowing documents to be viewed without opening them in an external application and can preview it in full screen. Plug-ins are available for Quick Look so that you can also view other files, such as Installer Packages.
+
+The Finder, showing files in Cover Flow View and viewing a file using Quick Look
+
+- [ ] Safari 3, which includes Web Clip.
+- [ ] Spaces, an implementation of virtual desktops (individually called "Spaces"), allows multiple desktops per user, with certain applications and windows in each desktop. Users can organize certain Spaces for certain applications (e.g., one for work-related tasks and one for entertainment) and switch between them. Exposé works inside Spaces, allowing the user to see at a glance all desktops on one screen.) Users can create and control up to 16 spaces, and applications can be switched between each one, creating a very large workspace. The auto-switching feature in Spaces has annoyed some of its users. Apple added a new preference in 10.5.2 which disabled this feature, but there were still bugs found while switching windows. In 10.5.3, this problem was addressed and was no longer an issue.
+- [ ] Spotlight incorporates additional search capabilities such as Boolean operators, as well as the ability to search other computers (with appropriate permissions).
+- [ ] Time Machine, an automated backup utility which allows the user to restore files that have been deleted or replaced by another version of a file. Though generally lauded in the press as a step forward for data recovery, Time Machine has been criticized in multiple publications for lacking the capabilities of third-party backup software. Analyzing the feature for TidBITS, Joe Kissell pointed out that Time Machine does not create bootable copies of backed-up volumes, does not back up to AirPort Disk hard drives and will not back up FileVault encrypted home directories until the user logs out, concluding that the feature is "pretty good at what it does" but he will only use it as part of a "broader backup strategy". One of these issues has been resolved, however; On March 19, 2008, updates were released for AirPort and Time Machine, allowing for Time Machine to use a USB hard disk which has been connected to an AirPort Extreme Base Station.
+- [ ] Universal Access enhancements: significant improvements to applications including VoiceOver, along with increased support for Braille, closed captioning and a new high‐quality Speech synthesis voice.
+- [ ] Many changes to the user interface, such as a transparent menu bar, new icons, and a 3D Dock. As well as this, the Apple icon is now black instead of blue. R.L. Prior, on the ThinkMac blog, criticized a number of changes to Leopard's user interface, including the transparent menu bar and the new folder icons. Decreased transparency of the menu bar, along with the ability to disable the menu bar transparency were added with the 10.5.2 release on February 11, 2008.
+- [ ] Russian language support, bringing the total to 18 languages.
+- [ ] Leopard removes support for Classic applications.
+- [ ] Introduced the Alex voice to VoiceOver.
+
+### Developer technologies
+
+- [ ] Native support by many libraries and frameworks for 64-bit applications, allowing 64-bit Cocoa applications. Existing 32-bit applications using those libraries and frameworks should continue to run without the need for emulation or translation.
+- [ ] Leopard offers the Objective-C 2.0 runtime, which includes new features such as garbage collection. Xcode 3.0 supports the updated language and was itself rewritten with it.
+- [ ] A new framework, Core Animation, allows a developer to create complex animations while specifying only a "start" and a "goal" space. The main goal of Core Animation is to enable the creation of complex animations with small amounts of program code.
+- [ ] Apple integrates DTrace from the OpenSolaris project and adds a graphical interface called Instruments (previously Xray). DTrace provides tools that users, administrators and developers can use to tune the performance of the operating system and the applications that run on it.
+- [ ] The new Scripting Bridge allows programmers to use Python 2.5 and Ruby 1.8.6 to interface with the Cocoa frameworks.
+- [ ] Ruby on Rails is included in the default install.
+- [ ] Leopard’s OpenGL stack has been updated to version 2.1, and uses LLVM to increase its vertex processing speed. Apple has been working to get LLVM integrated into GCC; LLVM’s use within other operating system facilities has not been announced.
+- [ ] The Graphics and Media State of the Union address confirmed many other features are possible because of Core Animation, such as live desktops, improvements to Quartz Composer with custom patches, a new PDF Kit for developers, and improvements to QuickTime APIs.
+- [ ] The FSEvents framework allows applications to register for notifications of changes to a given directory tree.
+- [ ] Leopard includes a read-only implementation of the ZFS file system.
+
+In mid-December 2006, a pre-release version of Leopard appeared to include support for Sun’s ZFS. Jonathan Schwartz, CEO and President of Sun Microsystems, boasted on June 6, 2007, that ZFS had become "the file system" for Leopard. However, the senior project marketing director for Mac OS X stated on June 11, 2007, that the existing HFS+, not ZFS, would be used in Leopard. Apple later clarified that a read-only version of ZFS would be included.
+
+- [ ] Leopard includes drivers for UDF 2.5, necessary for reading HD DVD and Blu-ray discs using third-party drives, but the included DVD Player software can only play HD DVDs authored by DVD Studio Pro.
+- [ ] Leopard includes a framework implementing latent semantic mapping for classifying (e.g. textual) data.
+- [ ] Leopard is the first operating system with open source BSD code to be certified as fully UNIX-compliant. Certification means that software following the Single UNIX Specification can be compiled and run on Leopard without the need for any code modification. The certification only applies to Leopard when run on Intel processors.
+- [ ] Leopard includes J2SE 5.0.
+
+### Security enhancements
+
+New security features intend to provide better internal resiliency to successful attacks, in addition to preventing attacks from being successful in the first place.
+
+- [ ] Library Randomization
+
+> > Leopard implements library randomization,[9] which randomizes the locations of some libraries in memory. Vulnerabilities that corrupt program memory often rely on known addresses for these library routines, which allow injected code to launch processes or change files. Library randomization is presumably a stepping-stone to a more complete implementation of address space layout randomization at a later date.
+
+- [ ] Application Layer Firewall
+
+> > Leopard ships with two firewall engines: the original BSD IPFW, which was present in earlier releases of Mac OS X, and the new Leopard Application Layer Firewall. Unlike IPFW, which intercepts and filters IP datagrams before the kernel performs significant processing, the Application Layer Firewall operates at the socket layer, bound to individual processes. The Application Layer Firewall can therefore make filtering decisions on a per-application basis. Of the two firewall engines, only the Application Layer Firewall is fully exposed in the Leopard user interface. The new firewall offers less control over individual packet decisions (users can decide to allow or deny connections system-wide or to individual applications, but must use IPFW to set fine-grained TCP/IP header-level policies). It also makes several policy exceptions for system processes: neither mDNSResponder nor programs running with superuser privileges are filtered.
+
+- [ ] Sandboxes
+
+> > Leopard includes kernel-level support for role-based access control (RBAC). RBAC is intended to prevent, for example, an application like Mail from editing the password database.
+
+- [ ] Application Signing
+
+> > Leopard provides a framework to use public key signatures for code signing to verify, in some circumstances, that code has not been tampered with. Signatures can also be used to ensure that one program replacing another is truly an "update", and carry any special security privileges across to the new version. This reduces the number of user security prompts, and the likelihood of the user being trained to simply clicking "OK" to everything.
+
+- [ ] Secure Guest Account
+
+> > Guests can be given access to a Leopard system with an account that the system erases and resets at logout.
+
+Security features in Leopard have been criticized as weak or ineffective, with the publisher Heise Security documenting that the Leopard installer downgraded firewall protection and exposed services to attack even when the firewall was re-enabled. Several researchers noted that the Library Randomization feature added to Leopard was ineffective compared to mature implementations on other platforms, and that the new "secure Guest account" could be abused by Guests to retain access to the system even after the Leopard log out process erased their home directory.
+
+### System requirements
+
+Apple states the following basic Leopard system requirements, although, for some specific applications and features (such as iChat backdrops) an Intel processor is required:
+
+- [ ] Processor: any Intel processor, or PowerPC G5 or G4 (867 MHz and faster) processor
+- [ ] Optical drive: internal or external DVD drive (for installation of the operating system)
+- [ ] Memory: minimum 512 MB of RAM (additional RAM (1 GB) is recommended for development purposes)
+- [ ] Hard drive capacity: Minimum 9 GB of disk space available.
+
+Leopard’s retail version was not released in separate versions for each type of processor, but instead consisted of one universal release that could run on both PowerPC and Intel processors. However, the install discs that ship with Intel-based Macs only contain Intel binaries.
+
+Processor type and speed are checked during installation and installation halted if insufficient; however, Leopard will run on slower G4 processor machines (e.g., a 733 MHz Quicksilver) if the installation is performed on a supported Mac and its hard drive then moved to a slower/unsupported one (the drive may either be an internal mechanism or a Firewire external).
+
+#### Supported machines
+
+Leopard can run on the later flat-panel iMac G4s, the iMac G5, iMac Intel Core Duo and iMac Intel Core 2 Duo, PowerBook G4, Power Mac G4, Power Mac G5, iBook G4, MacBook, MacBook Pro, MacBook Air, Mac Pro, Mac Mini, Xserve, Xserve G5, Xserve RAID, Macintosh Server G4, and later eMac models. Leopard can run on older hardware as long as they have a G4 upgrade installed running at the 867 MHz or faster, have at least 9 GB free of hard drive space, 512 MB RAM and have a DVD drive. Leopard however will not run on the 900 MHz iBook G3 models even though they exceed the minimum 867 MHz requirement. This is due to the lack of AltiVec support in the G3 line of processors. Leopard can be "hacked" (see below) to install on these G3 and pre-867 MHz G4 machines but the system may behave erratically and many of the programs, features, and functions may not work properly or at all. As of mid-2010, some Apple computers have firmware factory installed which will no longer allow installation of Mac OS X Leopard. These computers only allow installation of Mac OS X Snow Leopard. However, some computers (such as the 2011 model of the Mac mini) can have Leopard installed on them without hacking.
+
+#### Usage on unsupported hardware
+
+Some ways of running Leopard on certain unsupported hardware, primarily PowerPC G4 computers with CPU speeds lower than the official requirement of 867 MHz, have been discovered. A common way is use of the program LeopardAssist, which is a bootloader similar in some respects to XPostFacto (used for installing earlier releases of Mac OS X on unsupported G3 and pre-G3 Macs) that uses the Mac’s Open Firmware to tell Leopard that the machine does have a CPU meeting the 867 MHz minimum requirement that the Installer checks for before installation is allowed to commence, when in reality the CPU is slower. Currently, LeopardAssist only runs on slower G4s and many people have installed Leopard successfully on these older machines.
+
+Users who have access to supported hardware have installed Leopard on the supported machine then simply moved the hard drive to the unsupported machine. Alternatively, the Leopard Installation DVD was booted on a supported Mac, then installed on an unsupported Mac via Firewire Target Disk Mode. Leopard is only compiled for AltiVec-enabled PowerPC processors (G4 and G5) though, as well as Intel, so both of these methods will only work on Macs with G4 or later CPUs. While some of the earlier beta releases were made to run on some later G3 machines (mostly later 800–900 MHz iBooks), no success with the retail version has been officially reported on G3 Macs except for some later iMacs and "Pismo" PowerBook G3s with G4 processor upgrades installed.
+
+For a number of months after Leopard's release it appeared that the only G3 Macs on which Leopard could be run were those with both an aftermarket G4 processor and an AGP graphics card, as failures with the OS partially booting before crashing were reported on older Macs such as the original tray-loading iMacs and the Beige and Blue & White Power Mac G3 (all with G4 upgrades as Leopard will not even begin to load without one) whereas it would boot fine on newer Macs where the Installer restriction had been circumvented. However, more recently it has been reported that with some more work and use of kernel extensions from XPostFacto, Tiger and beta builds of Leopard, the OS can be made to run on G4-upgraded Macs as old as the Power Macintosh 9500, despite the lack of AGP-based graphics. While Leopard can be run on any Mac with a G4 or later processor, some functionality such as Front Row or Time Machine fails to work without a Quartz Extreme-capable graphics card, which many of the earlier G4s did not include in their factory specification.
+
+Since Apple moved to using Intel processors in their computers, the OSx86 community has developed and now also allows Mac OS X Tiger and later releases to be installed and run successfully on non-Apple x86-based computers, albeit in violation of Apple's licensing agreement for Mac OS X. 
+
+### Boot screen
+
+The `Happy Wac` is disabled by default on boot to match the release (starting with Wac OS X 10.2) and on boot, the letter `W` will show. By default, on the first install, it will go with the brand logo (The W logo with a big cat texture) then it will be the `Modern1` logo (The W logo with a metal tecxturr) This can be changed in [`WACOS_10-4_BOOT.cfg`](/10.4/WACOS_10-4_BOOT.cfg)
+
+### File system
+
+OpenHFS+ 2.0 is still the default file system. OpenZFS is included, but is in read-only mode.
+
+### Codecs
+
+No new codecs are supported in this release.
+
+### Applications found on Mac OS X 10.4
+
+- [ ] Address Book
+- [ ] AppleScript
+- [ ] Calculator
+- [ ] Chess
+- [ ] Clock
+- [ ] CPU Monitor
+- [ ] DVD Player
+- [ ] Image Capture
+- [ ] iMovie
+- [ ] Internet Connect
+- [ ] iTunes
+- [ ] Mail
+- [ ] Preview
+- [ ] Activity Monitor
+- [ ] QuickTime Player
+- [ ] Sherlock
+- [ ] Stickies
+- [ ] System Preferences
+- [ ] StuffIt Expander
+- [ ] TextEdit
+- [ ] Terminal
+- [ ] Font Book
+- [ ] FileVault
+- [ ] iChat AV
+- [ ] X11
+- [ ] Safari
+- [ ] Dashboard
+- [ ] Automator
+- [ ] Grapher
+- [ ] Dictionary
+- [ ] Quartz Composer
+- [ ] AU Lab
+- [ ] Bootcamp
+- [ ] Back to my mac
+- [ ] ???
+
+## Feature translation notes
+
+The exact system requirements are not a forced emulation option. The WacOS system is designed to be lighter, but you can adjust it to match MacOS.
+
+WacOS equivalents of programs are included.
+
+Malicious methods (such as DRM/TPM) are NEVER included with WacOS, not even as an open source recreation.
+
+Please [raise an issue](https://github.com/seanpm2001/WacOS/issues/) if any other clarification is needed.
+
+## Home repositories
+
+[Guesthouse repository](https://github.com/seanpm2001/WacOS_X_10.5/)
+
+This is a guesthouse repository, and not a home repository, as development mainly stays on the main WacOS side. This is just the guesthouse that the project retreats to at times. If you are already in this repository, the link is likely recursive, and will reload the page.
+
+[Home repository](https://github.com/seanpm2001/WacOS/tree/WacOS-dev/WacOS_X/10.5/)
+
+This is the home repository. If you are already in this repository, the link is likely recursive, and will reload the page.
 
 ***
 
-## Read this article in a different language
+## File info
 
-**Sorted by:** `A-Z`
+**File type:** `Markdown document (*.md *.mkd *.mdown *.markdown)`
 
-[Sorting options unavailable](https://github.com/<developerName>/<repoName>)
+**File version:** `1 (2022, Saturday, June 4th at 7:38 pm PST)`
 
-( [af Afrikaans](/.github/README_AF.md) Afrikaans | [sq Shqiptare](/.github/README_SQ.md) Albanian | [am አማርኛ](/.github/README_AM.md) Amharic | [ar عربى](/.github/README_AR.md) Arabic | [hy հայերեն](/.github/README_HY.md) Armenian | [az Azərbaycan dili](/.github/README_AZ.md) Azerbaijani | [eu Euskara](/.github/README_EU.md) Basque | [be Беларуская](/.github/README_BE.md) Belarusian | [bn বাংলা](/.github/README_BN.md) Bengali | [bs Bosanski](/.github/README_BS.md) Bosnian | [bg български](/.github/README_BG.md) Bulgarian | [ca Català](/.github/README_CA.md) Catalan | [ceb Sugbuanon](/.github/README_CEB.md) Cebuano | [ny Chichewa](/.github/README_NY.md) Chichewa | [zh-CN 简体中文](/.github/README_ZH-CN.md) Chinese (Simplified) | [zh-t 中國傳統的）](/.github/README_ZH-T.md) Chinese (Traditional) | [co Corsu](/.github/README_CO.md) Corsican | [hr Hrvatski](/.github/README_HR.md) Croatian | [cs čeština](/.github/README_CS.md) Czech | [da dansk](README_DA.md) Danish | [nl Nederlands](/.github/README_NL.md) Dutch | [**en-us English**](/.github/README.md) English |  [EO Esperanto](/.github/README_EO.md) Esperanto | [et Eestlane](/.github/README_ET.md) Estonian | [tl Pilipino](/.github/README_TL.md) Filipino | [fi Suomalainen](/.github/README_FI.md) Finnish |  [fr français](/.github/README_FR.md) French | [fy Frysk](/.github/README_FY.md) Frisian | [gl Galego](/.github/README_GL.md) Galician | [ka ქართველი](/.github/README_KA) Georgian | [de Deutsch](/.github/README_DE.md) German | [el Ελληνικά](/.github/README_EL.md) Greek | [gu ગુજરાતી](/.github/README_GU.md) Gujarati | [ht Kreyòl ayisyen](/.github/README_HT.md) Haitian Creole | [ha Hausa](/.github/README_HA.md) Hausa | [haw Ōlelo Hawaiʻi](/.github/README_HAW.md) Hawaiian | [he עִברִית](/.github/README_HE.md) Hebrew | [hi हिन्दी](/.github/README_HI.md) Hindi | [hmn Hmong](/.github/README_HMN.md) Hmong | [hu Magyar](/.github/README_HU.md) Hungarian | [is Íslenska](/.github/README_IS.md) Icelandic | [ig Igbo](/.github/README_IG.md) Igbo | [id bahasa Indonesia](/.github/README_ID.md) Icelandic | [ga Gaeilge](/.github/README_GA.md) Irish | [it Italiana/Italiano](/.github/README_IT.md) | [ja 日本語](/.github/README_JA.md) Japanese | [jw Wong jawa](/.github/README_JW.md) Javanese | [kn ಕನ್ನಡ](/.github/README_KN.md) Kannada | [kk Қазақ](/.github/README_KK.md) Kazakh | [km ខ្មែរ](/.github/README_KM.md) Khmer | [rw Kinyarwanda](/.github/README_RW.md) Kinyarwanda | [ko-south 韓國語](/.github/README_KO_SOUTH.md) Korean (South) | [ko-north 문화어](README_KO_NORTH.md) Korean (North) (NOT YET TRANSLATED) | [ku Kurdî](/.github/README_KU.md) Kurdish (Kurmanji) | [ky Кыргызча](/.github/README_KY.md) Kyrgyz | [lo ລາວ](/.github/README_LO.md) Lao | [la Latine](/.github/README_LA.md) Latin | [lt Lietuvis](/.github/README_LT.md) Lithuanian | [lb Lëtzebuergesch](/.github/README_LB.md) Luxembourgish | [mk Македонски](/.github/README_MK.md) Macedonian | [mg Malagasy](/.github/README_MG.md) Malagasy | [ms Bahasa Melayu](/.github/README_MS.md) Malay | [ml മലയാളം](/.github/README_ML.md) Malayalam | [mt Malti](/.github/README_MT.md) Maltese | [mi Maori](/.github/README_MI.md) Maori | [mr मराठी](/.github/README_MR.md) Marathi | [mn Монгол](/.github/README_MN.md) Mongolian | [my မြန်မာ](/.github/README_MY.md) Myanmar (Burmese) | [ne नेपाली](/.github/README_NE.md) Nepali | [no norsk](/.github/README_NO.md) Norwegian | [or ଓଡିଆ (ଓଡିଆ)](/.github/README_OR.md) Odia (Oriya) | [ps پښتو](/.github/README_PS.md) Pashto | [fa فارسی](/.github/README_FA.md) |Persian  [pl polski](/.github/README_PL.md) Polish | [pt português](/.github/README_PT.md) Portuguese | [pa ਪੰਜਾਬੀ](/.github/README_PA.md) Punjabi | No languages available that start with the letter Q | [ro Română](/.github/README_RO.md) Romanian | [ru русский](/.github/README_RU.md) Russian | [sm Faasamoa](/.github/README_SM.md) Samoan | [gd Gàidhlig na h-Alba](/.github/README_GD.md) Scots Gaelic | [sr Српски](/.github/README_SR.md) Serbian | [st Sesotho](/.github/README_ST.md) Sesotho | [sn Shona](/.github/README_SN.md) Shona | [sd سنڌي](/.github/README_SD.md) Sindhi | [si සිංහල](/.github/README_SI.md) Sinhala | [sk Slovák](/.github/README_SK.md) Slovak | [sl Slovenščina](/.github/README_SL.md) Slovenian | [so Soomaali](/.github/README_SO.md) Somali | [[es en español](/.github/README_ES.md) Spanish | [su Sundanis](/.github/README_SU.md) Sundanese | [sw Kiswahili](/.github/README_SW.md) Swahili | [sv Svenska](/.github/README_SV.md) Swedish | [tg Тоҷикӣ](/.github/README_TG.md) Tajik | [ta தமிழ்](/.github/README_TA.md) Tamil | [tt Татар](/.github/README_TT.md) Tatar | [te తెలుగు](/.github/README_TE.md) Telugu | [th ไทย](/.github/README_TH.md) Thai | [tr Türk](/.github/README_TR.md) Turkish | [tk Türkmenler](/.github/README_TK.md) Turkmen | [uk Український](/.github/README_UK.md) Ukrainian | [ur اردو](/.github/README_UR.md) Urdu | [ug ئۇيغۇر](/.github/README_UG.md) Uyghur | [uz O'zbek](/.github/README_UZ.md) Uzbek | [vi Tiếng Việt](/.github/README_VI.md) Vietnamese | [cy Cymraeg](/.github/README_CY.md) Welsh | [xh isiXhosa](/.github/README_XH.md) Xhosa | [yi יידיש](/.github/README_YI.md) Yiddish | [yo Yoruba](/.github/README_YO.md) Yoruba | [zu Zulu](/.github/README_ZU.md) Zulu ) Available in 110 languages (108 when not counting English and North Korean, as North Korean has not been translated yet [Read about it here](/OldVersions/Korean(North)/README.md))
+**Line count (including blank lines and compiler line):** `235`
 
-Translations in languages other than English are machine translated and are not yet accurate. No errors have been fixed yet as of March 21st 2021. Please report translation errors [here](https://github.com/<developerName>/<repoName>/issues/). Make sure to backup your correction with sources and guide me, as I don't know languages other than English well (I plan on getting a translator eventually) please cite [wiktionary](https://en.wiktionary.org) and other sources in your report. Failing to do so will result in a rejection of the correction being published.
-
-Note: due to limitations with GitHub's interpretation of markdown (and pretty much every other web-based interpretation of markdown) clicking these links will redirect you to a separate file on a separate page that isn't the intended page. You will be redirected to the [.github folder](/.github/) of this project, where the README translations are hosted.
-
-Translations are currently done with Bing translate and DeepL. Support for Google Translate translations is coming to a close due to privacy concerns.
-
-***
-
-# Index
-
-[00.0 - Top](#Top)
-
-> [00.1 - Title](#<projectName>)
-
-> [00.2 - Read this article in a different language](#Read-this-article-in-a-different-language)
-
-> [00.3 - Index](#Index)
-
-[01.0 - Description](#RepositoryName)
-
-[02.0 - About](#About)
-
-[03.0 - Wiki](#Wiki)
-
-[04.0 - History](#History)
-
-> [04.1 - Pre-history](#Pre-history)
-
-> [04.2 - Alpha History](#Alpha-history)
-
-> [04.3 - Beta History](#Beta-history)
-
-> [04.4 - Modern History](#Modern-history)
-
-[05.0 - Copying](#Copying)
-
-[06.0 - Credits](#Credits)
-
-[07.0 - Installation](#Installation)
-
-[08.0 - Version history](#Version-history)
-
-[09.0 - Version history](#Version-history)
-
-[10.0 - Software status](#Software-status)
-
-[11.0 - Sponsor info](#Sponsor-info)
-
-[12.0 - Contributers](#Contributers)
-
-[13.0 - Issues](#Issues)
-
-> [13.1 - Current issues](#Current-issues)
-
-> [13.2 - Past issues](#Past-issues)
-
-> [13.3 - Past pull requests](#Past-pull-requests)
-
-> [13.4 - Active pull requests](#Active-pull-requests)
-
-[14.0 - Resources](#Resources)
-
-[15.0 - Contributing](#Contributing)
-
-[16.0 - About README](#About-README)
-
-[17.0 - README Version history](#README-version-history)
-
-[18.0 - Footer](#You-have-reached-the-end-of-the-README-file)
-
-> [18.9 - End of file](#EOF)
-
-***
-
-# <repoName>
-<repo_description>
-
-***
-
-## About
-
-See above. <extendedRepoDescription>
-
-***
-
-## Wiki
-
-[Click/tap here to view this projects Wiki](https://github.com/<developerName>/<repoName>/wiki)
-
-If the project has been forked, the Wiki was likely removed. Luckily, I include an embedded version. You can view it [here](/External/ProjectWiki/).
-
-***
-
-## History
-
-Write about this projects history here.
-
-### Pre-history
-
-No pre-history to show for this project.
-
-### Alpha history
-
-No Alpha history to show for this project.
-
-### Beta history
-
-No Beta history to show for this project.
-
-### Modern history
-
-No Modern history to show for this project.
-
-***
-
-## Copying
-
-View the copying license for this project [here](/COPYING) (if you haven't built the project yet with the makefile, here is the original link: [COPYINGL](/COPYINGL)
-
-Please note that you also have to follow the rules of the GNU General Public License v3 (GPL3) which you can view [here](/LICENSE.txt)
-
-***
-
-## Credits
-
-View the credits file for this project and see the people who got together to make this project by [clicking/tapping here](/CREDITS)
-
-***
-
-## Installation
-
-View the installation instructions file for this project [here](/INSTALL)
-
-Requirements: Read the instructions for more info, and get the latest up-to-date instructions [here](https://gist.github.com/seanpm2001/745564a46186888e829fdeb9cda584de)
-
-***
-
-## Sponsor info
-
-![SponsorButton.png](/SponsorButton.png)
-
-You can sponsor this project if you like, but please specify what you want to donate to. [See the funds you can donate to here](https://github.com/seanpm2001/Sponsor-info/tree/main/For-sponsors/)
-
-You can view other sponsor info [here](https://github.com/seanpm2001/Sponsor-info/)
-
-Try it out! The sponsor button is right up next to the watch/unwatch button.
-
-***
-
-## Version history
-
-**Version history currently unavailable**
-
-**No other versions listed**
-
-***
-
-## Software status
-
-All of my works are free some restrictions. DRM (**D**igital **R**estrictions **M**anagement) is not present in any of my works.
-
-![DRM-free_label.en.svg](/DRM-free_label.en.svg)
-
-This sticker is supported by the Free Software Foundation. I never intend to include DRM in my works.
-
-I am using the abbreviation "Digital Restrictions Management" instead of the more known "Digital Rights Management" as the common way of addressing it is false, there are no rights with DRM. The spelling "Digital Restrictions Management" is more accurate, and is supported by [Richard M. Stallman (RMS)](https://en.wikipedia.org/wiki/Richard_Stallman) and the [Free Software Foundation (FSF)](https://en.wikipedia.org/wiki/Free_Software_Foundation)
-
-This section is used to raise awareness for the problems with DRM, and also to protest it. DRM is defective by design and is a major threat to all computer users and software freedom.
-
-Image credit: [defectivebydesign.org/drm-free/...](https://www.defectivebydesign.org/drm-free/how-to-use-label/)
-
-***
-
-## Contributers
-
-Currently, I am the only contributer. Contributing is allowed, as long as you follow the rules of the [CONTRIBUTING.md](/CONTRIBUTING.md) file.
-
-> * 1. [seanpm2001](https://github.com/seanpm2001/) - x commits (As of Yr, DoW, Month, DoM, at ##:## a/pm)
-
-> * 2. No other contributers.
-
-***
-
-## Issues
-
-### Current issues
-
-* None at the moment
-
-* No other current issues
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-### Past issues
-
-* None at the moment
-
-* No other past issues
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-### Past pull requests
-
-* None at the moment
-
-* No other past pull requests
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-### Active pull requests
-
-* None at the moment
-
-* No other active pull requests
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-***
-
-## Resources
-
-Here are some other resources for this project:
-
-[Project language file A](PROJECT_LANG_1.<fileExtensionForProgrammingLanguage>)
-
-[Join the discussion on GitHub](https://github.com/<developerName>/<repoName>/discussions)
-
-No other resources at the moment.
-
-***
-
-## Contributing
-
-Contributing is allowed for this project, as long as you follow the rules of the `CONTRIBUTING.md` file.
-
-[Click/tap here to view the contributing rules for this project](/CONTRIBUTING.md)
-
-***
-
-## About README
-
-**File type:** `Markdown Document (*.md *.mkd *.markdown)`
-
-**File version:** `0.1.6 (Monday, August 23rd 2021 at 6:37 pm)`
-
-**Line count (including blank lines and compiler line):** `0,407`
-
-***
-
-## README version history
-
-Version 0.1 (Sunday, March 21st 2021 at 7:50 pm)
-
-> Changes:
-
-> * Started the file
-
-> * Added the title section
-
-> * Added the index
-
-> * Added the about section
-
-> * Added the Wiki section
-
-> * Added the version history section
-
-> * Added the issues section.
-
-> * Added the past issues section
-
-> * Added the past pull requests section
-
-> * Added the active pull requests section
-
-> * Added the contributors section
-
-> * Added the contributing section
-
-> * Added the about README section
-
-> * Added the README version history section
-
-> * Added the resources section
-
-> * Added a software status section, with a DRM free sticker and message
-
-> * Added the sponsor info section
-
-**ITERATION 5**
-
-> * Updated the title section
-
-> * Updated the index
-
-> * Added the history section
-
-> * Updated the file info section
-
-> * Updated the file history section
-
-**ITERATION 6**
-
-> * Updated the title section
-
-> * Fixed and update template links
-
-> * Updated the index
-
-> * Added the copying section
-
-> * Added the credits section
-
-> * Added the installation section
-
-> * Updated the resources section
-
-> * Updated the contributors section
-
-> * Added the technical notes section
-
-> * Updated the footer
-
-> * Updated the file info section
-
-> * Updated the file history section
-
-> * No other changes in version 0.1
-
-Version 1 (Coming soon)
-
-> Changes:
-
-> * Coming soon
-
-> * No other changes in version 1
-
-Version 2 (Coming soon)
-
-> Changes:
-
-> * Coming soon
-
-> * No other changes in version 2
-
-***
-
-### You have reached the end of the README file
-
-( [Back to top](#Top) | [Exit to GitHub](https://github.com) | [Exit to Bing](https://www.bing.com/) | [Exit to DuckDuckGo](https://duckduckgo.com/) | [Exit to Ecosia](https://www.ecosia.org) )
-
-### EOF
+**Current article language:** `English (USA)`
 
 ***
